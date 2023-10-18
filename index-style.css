@@ -1,0 +1,48 @@
+body {
+  color: #4056A1;
+  background-color: #C5CBE3;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: Raleway;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Raleway;
+  padding: 10px;
+}
+
+.container img {
+  max-width: 15%;
+  max-height: auto;
+  padding-top: 10px;
+}
+
+.new-section {
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+.new-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.new-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.new-section p {
+  font-size: 18px;
+}
+
+.full-height {
+  min-height: 100vh;
+}/*# sourceMappingURL=index-style.css.map */
