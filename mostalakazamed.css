@@ -1,0 +1,23 @@
+body{
+padding: 0;
+
+}
+
+.card-img {
+    align-items: center;
+}
+
+#card-size {
+    width: auto;
+    height: 20 em;
+}
+.card:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+      }
+
+/* #icon-size{
+    width: 10em;
+    height: 50em;
+} */
+
+
