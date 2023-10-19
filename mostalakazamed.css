@@ -1,23 +1,66 @@
-body{
-padding: 0;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.card-img {
-    align-items: center;
+html, body{min-height:100%;}
+body{height:100vh;}
+
+body {
+    color: #4056A1;
+    background-color: #C5CBE3;
+    font-family: Merriweather;
 }
 
-#card-size {
-    width: auto;
-    height: 20 em;
+nav {
+    background-color: #4056A1;
+    color: #EFE2BA;
+    font-family: Raleway;
 }
-.card:hover {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
-      }
 
-/* #icon-size{
-    width: 10em;
-    height: 50em;
-} */
+.nav-link {
+    color: #EFE2BA;
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    color:#D79922;
+}
+
+.btn {
+    color: #4056A1;
+    border-color: #EFE2BA;
+    background-color: #EFE2BA;
+}
+
+.btn:hover {
+    background-color: #D79922;
+    color: #EFE2BA;
+    border-color: #D79922;
+}
+
+.nav-bar-toggler-icon {
+    color: #EFE2BA;
+}
+
+.main-button {
+    color:#4056A1;
+    border-color: #EFE2BA;
+}
+
+.pop:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 20px 20px #4056A1, 1px 6px 12px #4056A1;
+    transition: all .4s ease;
+}
 
 
+
+h4, h5 {
+    font-family: Raleway;
+}
+footer {
+    background-color: #4056A1;
+    color:#EFE2BA;
+    bottom: 0;
+}
