@@ -12,6 +12,10 @@ body {
     font-family: Merriweather;
 }
 
+.card {
+    border: none;
+}
+
 nav {
     background-color: #4056A1;
     color: #EFE2BA;
@@ -54,11 +58,18 @@ nav {
     transition: all .4s ease;
 }
 
-
-
 h4, h5 {
     font-family: Raleway;
 }
+
+.keyword {
+    text-decoration: underline;
+}
+
+.keyword:hover {
+    color:#D79922;
+}
+
 footer {
     background-color: #4056A1;
     color:#EFE2BA;
