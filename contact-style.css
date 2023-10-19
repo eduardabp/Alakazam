@@ -39,18 +39,23 @@ nav {
     border-color: #D79922;
 }
 
-.main-button {
-    color:#4056A1;
-    border-color: #EFE2BA;
+.btn[type="submit"] {
+    font-weight: 700;
 }
-
 
 h4, h5 {
     font-family: Raleway;
 }
 
+.card {
+    font-family: Merriweather;
+    color: #EFE2BA;
+    background-color: #4056A1;
+    border: none;
+}
+
+
 footer {
     background-color: #4056A1;
     color:#EFE2BA;
-    bottom: 0;
 }
