@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results</title>
@@ -9,203 +9,202 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="mockup-style.css" rel="stylesheet">
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Raleway:wght@700&family=Roboto&display=swap');
     </style>
-</head>
+  </head>
   <body>
-        <nav class="navbar navbar-expand-lg sticky-top">
-            <div class="container-fluid">
-              <a class="navbar-brand ms-4" href="#">
-                <img src="images/Shazam_icon.svg.png" width="40px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                  </li>
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" href="mostalakazamed.html">Most Alakazamed</a>
-                  </li>
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-4" href="#">
+            <img src="images/Shazam_icon.svg.png" width="40px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-4">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="mostalakazamed.html">Most Alakazamed</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
     <!-- search bar-->
-    <div class="container-fluid mt-5 mb-5">
+      <div class="container-fluid mt-5 mb-5">
         <form class="d-flex justify-content-center" role="search">
           <input class="form-control me-2 w-50" type="search" placeholder="Wil Wheaton + sharks" aria-label="Search">
           <button class="btn btn-outline-success main-button" type="submit">Search</button>
         </form>
-    </div>
+      </div>
 
     <!-- result carousel-->
-    <div id="main-result-carousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div id="main-result-carousel" class="carousel slide mb-5" data-bs-ride="carousel">
         <div class="carousel-inner mx-auto w-50">
-            <div class="card mb-3 carousel-item active">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/sharknado.jpg" class="img-fluid rounded-start" alt="poster of the Sharknado movie">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Sharknado</h5>
-                            <p class="card-text">When a freak hurricane swamps Los Angeles, thousands of sharks terrorize the waterlogged populace, and nature's deadliest killer rules sea, land, and air.</p>
-                            <p class="card-text"><small class="text-body-secondary">Stream on:</small></p>
-                            <img src="images/prime.png" class="me-1" width="32">
-                            <img src="images/netflix.png" class="me-1" width="32">
-                            <img src="images/hulu.png" class="me-1" width="32">
-                        </div>
-                    </div>
+          <div class="card mb-3 carousel-item active">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/sharknado.jpg" class="img-fluid rounded-start" alt="poster of the Sharknado movie">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sharknado</h5>
+                  <p class="card-text">When a freak hurricane swamps Los Angeles, thousands of sharks terrorize the waterlogged populace, and nature's deadliest killer rules sea, land, and air.</p>
+                  <p class="card-text"><small class="text-body-secondary">Stream on:</small></p>
+                  <img src="images/prime.png" class="me-1" width="32">
+                  <img src="images/netflix.png" class="me-1" width="32">
+                  <img src="images/hulu.png" class="me-1" width="32">
                 </div>
+              </div>
             </div>
-            <div class="card mb-3 carousel-item">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/sharknado2.jpg" class="img-fluid rounded-start" alt="poster of the Sharknado movie">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Sharknado 2</h5>
-                            <p class="card-text">When a freak hurricane swamps Los Angeles, thousands of sharks terrorize the waterlogged populace, and nature's deadliest killer rules sea, land, and air.</p>
-                            <p class="card-text"><small class="text-body-secondary">Stream on:</small></p>
-                            <img src="images/prime.png" class="me-1" width="32">
-                            <img src="images/netflix.png" class="me-1" width="32">
-                            <img src="images/hulu.png" class="me-1" width="32">
-                        </div>
-                    </div>
+          </div>
+          <div class="card mb-3 carousel-item">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/sharknado2.jpg" class="img-fluid rounded-start" alt="poster of the Sharknado movie">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sharknado 2</h5>
+                  <p class="card-text">When a freak hurricane swamps Los Angeles, thousands of sharks terrorize the waterlogged populace, and nature's deadliest killer rules sea, land, and air.</p>
+                  <p class="card-text"><small class="text-body-secondary">Stream on:</small></p>
+                  <img src="images/prime.png" class="me-1" width="32">
+                  <img src="images/netflix.png" class="me-1" width="32">
+                  <img src="images/hulu.png" class="me-1" width="32">
                 </div>
+              </div>
             </div>
+          </div>
         </div>
         <button class="carousel-control-prev w-50 pe-5" type="button" data-bs-target="#main-result-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next w-50 ps-5" type="button" data-bs-target="#main-result-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
-    </div>
+      </div>
 
-    
-    <!-- more Wil Wheaton results -->
-    <h4 class="ms-5 pt-4">More <span class="keyword">"Wil Wheaton"</span> movies:</h4>
+      <!-- more Wil Wheaton results -->
+      <h4 class="ms-5 pt-4">More <span class="keyword">"Wil Wheaton"</span> movies:</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-5 mx-auto w-75 mb-5">
+        <div class="col">
+          <div class="card h-100 pop">
+            <img src="images/flubber.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flubber</h5>
+              <p class="card-text">An absent-minded professor discovers "flubber," a rubber-like super-bouncy substance.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 pop">
+            <img src="images/trekkies.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Trekkies</h5>
+              <p class="card-text">Denise Crosby takes a first look at the huge fans of "Star Trek" and how the series from around America has affected and shaped their lives.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 pop">
+            <img src="images/naruto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Naruto Shippuden: The Movie</h5>
+              <p class="card-text">A powerful spirit that once threatened to destroy the world is back! Naruto's mission is to protect a priestess named Shion, who is the only one with the power to seal away the monster.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-5 mx-auto w-75 mb-5">
+      <!-- more shark results -->
+      <h4 class="ms-5 pt-4">More <span class="keyword">"shark"</span> movies:</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-5 mx-auto w-75 mb-5">
         <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/flubber.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Flubber</h5>
-                    <p class="card-text">An absent-minded professor discovers "flubber," a rubber-like super-bouncy substance.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                    <img src="images/netflix.png" class="me-1" width="24">
-                    <img src="images/hulu.png" class="me-1" width="24">
-                </div>
+          <div class="card h-100 pop">
+            <img src="images/themeg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Meg</h5>
+              <p class="card-text">A group of scientists exploring the Marianas Trench encounter the largest marine predator that has ever existed - the Megalodon.</p>
             </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
+            </div>
+          </div>
         </div>
         <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/trekkies.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Trekkies</h5>
-                    <p class="card-text">Denise Crosby takes a first look at the huge fans of "Star Trek" and how the series from around America has affected and shaped their lives.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                <img src="images/netflix.png" class="me-1" width="24">
-                <img src="images/hulu.png" class="me-1" width="24">
+          <div class="card h-100 pop">
+            <img src="images/jaws.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jaws</h5>
+              <p class="card-text">When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.</p>
             </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
             </div>
+          </div>
         </div>
         <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/naruto.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Naruto Shippuden: The Movie</h5>
-                    <p class="card-text">A powerful spirit that once threatened to destroy the world is back! Naruto's mission is to protect a priestess named Shion, who is the only one with the power to seal away the monster.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                <img src="images/netflix.png" class="me-1" width="24">
-                <img src="images/hulu.png" class="me-1" width="24">
+          <div class="card h-100 pop">
+            <img src="images/finding.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Finding Nemo</h5>
+              <p class="card-text">After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</p>
             </div>
+            <div class="card-footer">
+              <small class="text-body-secondary me-2">Stream on:</small>
+              <img src="images/prime.png" class="me-1" width="24">
+              <img src="images/netflix.png" class="me-1" width="24">
+              <img src="images/hulu.png" class="me-1" width="24">
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
 
-    <!-- more shark results -->
-    <h4 class="ms-5 pt-4">More <span class="keyword">"shark"</span> movies:</h4>
-
-    <div class="row row-cols-1 row-cols-md-3 g-5 mx-auto w-75 mb-5">
-        <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/themeg.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The Meg</h5>
-                    <p class="card-text">A group of scientists exploring the Marianas Trench encounter the largest marine predator that has ever existed - the Megalodon.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                <img src="images/netflix.png" class="me-1" width="24">
-                <img src="images/hulu.png" class="me-1" width="24">
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/jaws.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jaws</h5>
-                    <p class="card-text">When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                <img src="images/netflix.png" class="me-1" width="24">
-                <img src="images/hulu.png" class="me-1" width="24">
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 pop">
-                <img src="images/finding.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Finding Nemo</h5>
-                    <p class="card-text">After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary me-2">Stream on:</small>
-                    <img src="images/prime.png" class="me-1" width="24">
-                <img src="images/netflix.png" class="me-1" width="24">
-                <img src="images/hulu.png" class="me-1" width="24">
-            </div>
-            </div>
-        </div>
-    </div>
-
-      <!-- footer -->
+    <!-- footer -->
     <footer class="text-center">
       <div class="container p-2 pb-0">
         <section class="mb-1">
@@ -240,5 +239,5 @@
         <p>This is a fictional website for educational purposes.</p>
       </div>
     </footer>
-</body>
+  </body>
 </html>
