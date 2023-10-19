@@ -34,9 +34,9 @@ nav {
 }
 
 .btn:hover {
-    background-color: #D79922;
+    background-color: #F13C20;
     color: #EFE2BA;
-    border-color: #D79922;
+    border-color: #F13C20;
 }
 
 .btn[type="submit"] {
@@ -46,6 +46,20 @@ nav {
 .banner-midia {
     background-color: #F13C20;
     color:#EFE2BA;
+    border-radius: 25px;
+}
+
+.banner-midia p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social {
+    color:#EFE2BA;
+}
+
+.banner-midia a:hover {
+    color: #4056A1;
 }
 
 .contact-link {
@@ -65,6 +79,8 @@ p {
     color: #EFE2BA;
     background-color: #4056A1;
     border: none;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .form-control:focus {
