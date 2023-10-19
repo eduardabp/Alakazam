@@ -55,7 +55,7 @@
             <div class="card-body">
               <h5 class="card-title">Let's Get in Touch!</h5>
               <p class="card-text"></p>
-              <form id="contact_form" name="contact_form" method="post">
+              <form id="contact_form" name="contact_form" action="https://formspree.io/f/mjvqjnvb" method="post">
                     <div class="col mb-2">
                         <label>Name</label>
                         <input type="text" required maxlength="50" class="form-control" id="name" name="name">
@@ -67,12 +67,12 @@
                     </div>
                     <div class="col mb-2">
                         <label for="phone_input">Phone</label>
-                        <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                        <input type="tel" maxlength="50" class="form-control" id="phone_input" name="Phone"
                             placeholder="Phone">
                     </div>
                 <div class="mb-4">
                     <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                    <textarea required class="form-control" id="message" name="message" rows="4"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary px-4 btn-lg">Submit</button>
             </form>
