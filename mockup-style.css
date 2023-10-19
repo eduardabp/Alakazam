@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-link:hover {
-    color:#D79922;
+    color:#F13C20;
 }
 
 .btn {
@@ -34,9 +34,9 @@ nav {
 }
 
 .btn:hover {
-    background-color: #D79922;
+    background-color: #F13C20;
     color: #EFE2BA;
-    border-color: #D79922;
+    border-color: #F13C20;
 }
 
 .nav-bar-toggler-icon {
@@ -50,7 +50,7 @@ nav {
 
 .pop:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
-    box-shadow: 8px 20px 20px #D79922, 1px 6px 12px #D79922;
+    box-shadow: 8px 20px 20px #4056A1, 1px 6px 12px #4056A1;
     transition: all .4s ease;
 }
 
@@ -63,7 +63,7 @@ h4, h5 {
 }
 
 .keyword:hover {
-    color:#D79922;
+    color:#F13C20;
 }
 
 footer {

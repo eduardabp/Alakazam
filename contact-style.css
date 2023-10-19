@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-link:hover {
-    color:#D79922;
+    color:#F13C20;
 }
 
 .btn {
@@ -43,8 +43,21 @@ nav {
     font-weight: 700;
 }
 
+.banner-midia {
+    background-color: #F13C20;
+    color:#EFE2BA;
+}
+
+.contact-link {
+    color:#EFE2BA;
+}
+
 h4, h5 {
     font-family: Raleway;
+}
+
+p {
+    margin: 0;
 }
 
 .card {
