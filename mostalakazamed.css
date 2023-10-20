@@ -9,7 +9,7 @@ body{height:100vh;}
 body {
     color: #4056A1;
     background-color: #C5CBE3;
-    font-family: Merriweather;
+    font-family: Merriweather sans-serif;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-link:hover {
-    color:#D79922;
+    color:#fa531b;
 }
 
 .btn {
@@ -34,9 +34,9 @@ nav {
 }
 
 .btn:hover {
-    background-color: #D79922;
+    background-color: #fa531b;
     color: #EFE2BA;
-    border-color: #D79922;
+    border-color: #fa531b;
 }
 
 .nav-bar-toggler-icon {
@@ -47,6 +47,12 @@ nav {
     color:#4056A1;
     border-color: #EFE2BA;
 }
+.cover-image {
+margin-left: 300px;
+}    
+
+.trending {
+    margin-left: 300px;
 
 .pop:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
@@ -54,6 +60,9 @@ nav {
     transition: all .4s ease;
 }
 
+.card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+  }
 
 
 h4, h5 {
