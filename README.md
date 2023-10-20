@@ -17,19 +17,19 @@ We are the kind of people who constantly forget the films we watch and need an e
 That's why we created Alakazam!
 Alakazam is a search application that can identify the movie you are looking for based on keywords or short samples provided by the user.
 
-#### Did we got your attention? Check our page [here].
+#### Did we got your attention? Check our page [here](https://alakazam-startup.netlify.app/).
 &nbsp;  
 
 # VEROU 5 - STARTUP CHALLENGE
 
-This exercise is part of the Junior Web Development training, on the BeCode organization. The challenge was to create a startup and deploy a website in 3 days. The complete guidelines can be found in [here](https://github.com/becodeorg/GNT-Verou-5/tree/main/1.The-Field/08.The-startup). Our results can be found on [this repository](https://github.com/eduardabp/Alakazam) and on this [website].
+This exercise is part of the Junior Web Development training, on the BeCode organization. The challenge was to create a startup and deploy a website in 3 days. The complete guidelines can be found in [here](https://github.com/becodeorg/GNT-Verou-5/tree/main/1.The-Field/08.The-startup). Our results can be found on [this repository](https://github.com/eduardabp/Alakazam) and on this [website](https://alakazam-startup.netlify.app/).
 
 ### 💻 TEAM
 
 This group was formed by Sylvie, Funda, Mohamed and Eduarda. Each of us builded a part of the website, as follows:
 
-SYLVIE - Homepage
-FUNDA - About Us page 
+SYLVIE - Homepage  
+FUNDA - About Us page  
 MOHAMED - Most Alakazamed page  
 EDUARDA - Mockup Search page and Contact page  
 
