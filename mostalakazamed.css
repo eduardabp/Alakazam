@@ -39,8 +39,16 @@ nav {
     border-color: #fa531b;
 }
 
-.nav-bar-toggler-icon {
-    color: #EFE2BA;
+.navbar-toggler {
+    border-color: #EFE2BA;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28239, 226, 186, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");  
 }
 
 .main-button {
@@ -52,7 +60,7 @@ margin-left: 300px;
 }    
 
 .trending {
-    margin-left: 300px;
+    margin-left: 300px;}
 
 .pop:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
@@ -61,15 +69,17 @@ margin-left: 300px;
 }
 
 .card:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
 
 h4, h5 {
     font-family: Raleway;
 }
+#youtube-links {
+    background-color: navy;
+}
 footer {
     background-color: #4056A1;
     color:#EFE2BA;
-    bottom: 0;
-}
+    bottom: 0; }
