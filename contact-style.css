@@ -24,7 +24,19 @@ nav {
 }
 
 .nav-link:hover {
-    color:#D79922;
+    color:#F13C20;
+}
+
+.navbar-toggler {
+    border-color: #EFE2BA;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28239, 226, 186, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");  
 }
 
 .btn {
@@ -34,17 +46,44 @@ nav {
 }
 
 .btn:hover {
-    background-color: #D79922;
+    background-color: #F13C20;
     color: #EFE2BA;
-    border-color: #D79922;
+    border-color: #F13C20;
 }
 
 .btn[type="submit"] {
     font-weight: 700;
 }
 
+.banner-midia {
+    background-color: #F13C20;
+    color:#EFE2BA;
+    border-radius: 25px;
+}
+
+.banner-midia p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social {
+    color:#EFE2BA;
+}
+
+.banner-midia a:hover {
+    color: #4056A1;
+}
+
+.contact-link {
+    color:#EFE2BA;
+}
+
 h4, h5 {
     font-family: Raleway;
+}
+
+p {
+    margin: 0;
 }
 
 .card {
@@ -52,6 +91,8 @@ h4, h5 {
     color: #EFE2BA;
     background-color: #4056A1;
     border: none;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .form-control:focus {
