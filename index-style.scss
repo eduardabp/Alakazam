@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body{min-height:100%;}
+  body{height:100vh;}
+
 body {
     color: #4056A1;
     background-color: #C5CBE3;
@@ -40,6 +48,13 @@ p {
     animation: rotation 6s infinite linear;
 }
 
+.popcircle:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 8px 8px #4056A1, 1px 6px 1px #4056A1;
+    transition: all .4s ease;
+    border-radius: 50%;
+}
+
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -68,8 +83,10 @@ p {
 }
 
 .btn-lg:hover {
-    background-color: green;
-} 
+    background-color: #f120d5;
+    color: #EFE2BA;
+    border-color: #F13C20;
+}
 
 .full-height {
     min-height: 100vh;
@@ -87,11 +104,27 @@ p {
 animation: spin 2s infinite;
 }
 
-/* Style for the carousel section */
+.download-box {
+    background-color: #4056A1;
+    padding: 5px; 
+    padding-left: 10px;
+    text-align: left;
+    color:#C5CBE3;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.qr-code {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
 .carousel {
     padding: 50px;
     margin: 50px;
     max-width: 100%;
+    transform: scale(1.4);
     
         .carousel-inner {
             .carousel-item {
@@ -101,6 +134,7 @@ animation: spin 2s infinite;
                     display: block;
                     align-items: center;
                     object-fit:cover;
+                    padding: 10px;
                 }
             }
         }
@@ -125,3 +159,38 @@ animation: spin 2s infinite;
         }
     }
 
+    nav {
+        background-color: #4056A1;
+        color: #EFE2BA;
+        font-family: Raleway;
+    }
+    
+    .nav-link {
+        color: #EFE2BA;
+        font-size: 24px;
+    }
+    
+    .nav-link:hover {
+        color:#F13C20;
+    }
+    
+    .nav-btn {
+        color: #4056A1;
+        border-color: #EFE2BA;
+        background-color: #EFE2BA;
+    }
+    
+    .nav-btn:hover {
+        background-color: #F13C20;
+        color: #EFE2BA;
+        border-color: #F13C20;
+    }
+    
+    .nav-bar-toggler-icon {
+        color: #EFE2BA;
+    }
+    footer {
+        background-color: #4056A1;
+        color:#EFE2BA;
+    }
+    
