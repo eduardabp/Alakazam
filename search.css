@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{min-height:100%;}
+body{height:100vh;}
+
+body {
+    color: #4056A1;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./images/movie-elements-blue-background-with-copy-space.jpeg);
+    font-family: Merriweather;   
+    background-size:cover;
+}
+
+h1 {
+    font-family: Raleway;
+    color: #4056A1;
+    font-size: 62px;
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: #C5CBE3;
+}
+
+nav {
+    background-color: #4056A1;
+    color: #EFE2BA;
+    font-family: Raleway;
+}
+
+.nav-link {
+    color: #EFE2BA;
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    color:#F13C20;
+}
+
+.navbar-toggler {
+    border-color: #EFE2BA;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28239, 226, 186, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");  
+}
+
+.btn {
+    color: #4056A1;
+    border-color: #EFE2BA;
+    background-color: #EFE2BA;
+}
+
+.btn:hover {
+    background-color: #F13C20;
+    color: #EFE2BA;
+    border-color: #F13C20;
+}
+
+.nav-bar-toggler-icon {
+    color: #EFE2BA;
+}
+
+.main-button {
+    color:#4056A1;
+    border-color: #EFE2BA;
+}
+
+.pop:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 20px 20px #4056A1, 1px 6px 12px #4056A1;
+    transition: all .4s ease;
+    border: none;
+}
+
+h4, h5 {
+    font-family: Raleway;
+}
+
+.keyword {
+    text-decoration: underline;
+}
+
+.keyword:hover {
+    color:#F13C20;
+}
+
+footer {
+    background-color: #4056A1;
+    color:#EFE2BA;
+    bottom: 0;
+}
