@@ -12,21 +12,26 @@ Using our website or mobile application, users can enter a text input with the i
 
 ### 🎬 WHO?
 
+We are the kind of people who constantly forget the films we watch and need an easy way to find lost memories! 😅
+
+That's why we created Alakazam!
+Alakazam is a search application that can identify the movie you are looking for based on keywords or short samples provided by the user.
+
 #### Did we got your attention? Check our page [here].
+&nbsp;  
 
 # VEROU 5 - STARTUP CHALLENGE
 
 This exercise is part of the Junior Web Development training, on the BeCode organization. The challenge was to create a startup and deploy a website in 3 days. The complete guidelines can be found in [here](https://github.com/becodeorg/GNT-Verou-5/tree/main/1.The-Field/08.The-startup). Our results can be found on [this repository](https://github.com/eduardabp/Alakazam) and on this [website].
 
-### 💻 TEAM DIVISION
+### 💻 TEAM
 
-This group was formed by Eduarda, Funda, Mohamed and Sylvie. Each of us build a part of the website, as follows:
+This group was formed by Sylvie, Funda, Mohamed and Eduarda. Each of us builded a part of the website, as follows:
 
-EDUARDA - Mockup Search page and Contact page  
-FUNDA - About Us page  
-MOHAMED - Most Alakazamed page  
 SYLVIE - Homepage
-
+FUNDA - About Us page 
+MOHAMED - Most Alakazamed page  
+EDUARDA - Mockup Search page and Contact page  
 
 ### 💻 TOOLS
 
@@ -39,6 +44,9 @@ For this challenge, we used the following tools:
 - [SNAZZYMAPS](https://snazzymaps.com/)
 - GOOGLE MAPS API
 - [FORMSPREE](https://formspree.io/)
+- GIT / GITHUB
+- FREEPIK
+- VIDNOZ
 
 ### 💻 CHALLENGES COMPLETED
 

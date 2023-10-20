@@ -9,7 +9,21 @@ body{height:100vh;}
 body {
     color: #4056A1;
     background-color: #C5CBE3;
-    font-family: Merriweather;   
+    font-family: Merriweather;  
+}
+
+h1 {
+    font-family: Raleway;
+    color: #4056A1;
+    font-size: 62px;
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: #C5CBE3;
+}
+
+#backgroundimage  {
+    background-image: url(./images/copy-space-popcorn-with-cinema-tickets.jpeg);
+    background-color: #EFE2BA;
 }
 
 nav {
@@ -82,4 +96,5 @@ h4, h5 {
 footer {
     background-color: #4056A1;
     color:#EFE2BA;
+    bottom: 0;
 }
