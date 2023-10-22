@@ -35,10 +35,17 @@ p {
     font-family: Merriweather;
 }
 
-.container img {
-    max-width: 15%;
-    max-height: auto;
-    padding-top: 10px;
+
+.custom-qrcode {
+    height: auto;
+    max-height: 50px;
+}
+
+.phone-img {
+    max-width: 100%;
+    width: auto; 
+    height: auto; 
+    max-height: 600px; 
 }
 
 .first-container img {
@@ -48,7 +55,7 @@ p {
     animation: rotation 6s infinite linear;
 }
 
-.popcircle {
+.popcircle{
     max-width: 100%;
     height: auto;
 }
@@ -74,13 +81,6 @@ p {
     text-align: left;
 }
 
-.phone-img {
-    transform: scale(5);
-    margin-top: 25%;
-    margin-bottom: 20px;
-
-}
-
 #btn-lg {
     color: #EFE2BA;
     background-color: #F13C20;
@@ -95,6 +95,7 @@ p {
 
 .full-height {
     min-height: 100vh;
+    height: 100%;
 }
 
 
