@@ -74,21 +74,27 @@
         <!--right column (two rows)-->
         <div class="col-md-6 col sm-12 text-left container-text">
           <!--row1-->
-        <div class="row">
-            <div class="col-md-10 col-sm-12">
+          <div class="row">
+            <div class="col-md-10 col-sm-12 mt-5">
             <a href="https://play.google.com/store/games?hl=en&gl=US">
             <button type="button" id="btn-lg" class="btn btn-lg">Download the app now!</button></a>
             <h3>Discover Movies in an Instant – Alakazam Your Entertainment!</h3>
             </div>
-          </div>
+           </div>
            <!--row2-->
-        <div class="row">
-          <div class="col-md-10 col-sm-12">
-            <div class="download-box">
-              <p class="text-center">➺ scan this QR-code to download our app</p>
+           <!--idee: eventueel nog 2 kolommen creeeren in div voor de afbeelding en voor de tekst-->
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <div class="download-box mt-10 d-flex align-items-center">
+                  <div class="row">
+                  <div class="col-md-2 col-sm-12 mb-2 colleftcolumn">
+                    <img src="qr-code.png" alt="qr-code" class="img-fluid custom-qrcode mt-2"></img>
+                  </div>
+                  <div class="col-md-10 col-sm-12 d-flex mb-2 align-items-center rightcolumn">
+                    <p class="text-center mb-0"> ➺ scan this QR-code to download our app</p>
+                  </div>
+                </div>
             </div>
-              <img src="qr-code.png" alt="qr-code" class="img-fluid custom-qrcode mt-5 justify-content-center">
-            
            </div>
           </div>
         </div>
@@ -96,6 +102,7 @@
 </div>
 
 <!--carousel-->
+<div class="container full height">
 <h2 class="display-5">Top movies being discovered in the world</h2>
 <div id="main-result-carousel" class="carousel slide mb-5" data-bs-ride="carousel">
     <div class="carousel-inner mx-auto w-50">
@@ -153,7 +160,7 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
+</div>
 
 
 
