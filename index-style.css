@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
 }
 
@@ -38,7 +37,6 @@ h3 {
 p {
   font-size: 20px;
   font-family: Merriweather;
-  text-align: left;
 }
 
 .custom-qrcode {
@@ -110,7 +108,8 @@ p {
   padding-left: 10px;
   color: #C5CBE3;
   border-radius: 10px;
-  margin-top: 120px;
+  margin-top: 10px;
+  margin-bottom: 20%;
 }
 
 .qr-code {
@@ -119,10 +118,16 @@ p {
   border-radius: 20px;
 }
 
+.carousel-container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .carousel {
-  padding: 50px;
-  margin: 50px;
+  padding: auto;
+  margin: auto;
   max-width: 100%;
+  text-align: center;
 }
 .carousel .carousel-inner .carousel-item img {
   max-width: 100%;
