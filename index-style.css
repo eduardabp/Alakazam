@@ -53,6 +53,11 @@ p {
   animation: rotation 6s infinite linear;
 }
 
+.popcircle {
+  max-width: 100%;
+  height: auto;
+}
+
 .popcircle:hover {
   transform: translate3D(0, -1px, 0) scale(1.03);
   box-shadow: 8px 8px 8px #4056A1, 1px 6px 1px #4056A1;
@@ -77,6 +82,7 @@ p {
 .phone-img {
   transform: scale(5);
   margin-top: 25%;
+  margin-bottom: 20px;
 }
 
 #btn-lg {
@@ -93,22 +99,6 @@ p {
 
 .full-height {
   min-height: 100vh;
-}
-
-.rotate {
-  transform: rotate3d(360deg);
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate 360deg;
-  }
-}
-.spinning {
-  animation: spin 2s infinite;
 }
 
 .download-box {
@@ -226,4 +216,10 @@ footer {
   background-color: #F13C20;
   color: #EFE2BA;
   border-color: #F13C20;
+}
+
+@media (max-width: 800px) {
+  .popcircle {
+    max-width: 50% !important;
+  }
 }/*# sourceMappingURL=index-style.css.map */
